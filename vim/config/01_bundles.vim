@@ -26,3 +26,6 @@ Plugin 'nicklasos/vim-jsx-riot'
 Plugin 'evanmiller/nginx-vim-syntax'
 Plugin 'fatih/vim-go'
 call vundle#end()
+
+PluginInstall
+
