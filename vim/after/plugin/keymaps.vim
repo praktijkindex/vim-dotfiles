@@ -5,6 +5,6 @@ nmap ]T :tabm +1<CR>
 nmap [T :tabm -1<CR>
 
 
-nunmap <silent> <Leader>gg
-nunmap <silent> <Leader>pp
+silent! nunmap <silent> <Leader>gg
+silent! nunmap <silent> <Leader>pp
 
