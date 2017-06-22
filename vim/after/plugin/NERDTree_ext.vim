@@ -1,3 +1,5 @@
+StopUnlessHas("NERD_tree")
+
 let s:Path = g:NERDTreePath
 
 function! NERDTreeTouchNode_artm()
