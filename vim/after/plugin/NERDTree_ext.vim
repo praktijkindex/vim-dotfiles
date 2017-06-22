@@ -1,4 +1,4 @@
-StopUnlessHas("NERD_tree")
+StopUnlessHas("NERD_tree.vim")
 
 let s:Path = g:NERDTreePath
 

@@ -22,7 +22,7 @@ augroup artm
   "au BufWinLeave * silent! mkview
   "au BufWinEnter * silent! loadview
   au BufWinEnter *.md if line2byte(line("$") + 1) > 3000 | syntax clear | endif
-  if HasPlugin("NERD_tree")
+  if HasPlugin("NERD_tree.vim")
     au VimEnter * if argc() < 1 | NERDTree | endif
   endif
   au InsertEnter * silent! :set norelativenumber number
