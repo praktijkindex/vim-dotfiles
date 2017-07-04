@@ -1,4 +1,6 @@
-finish
+if $USER != "artm"
+  finish
+endif
 noremap <Left>   <NOP>
 noremap <Right>  <NOP>
 noremap <Up>     <NOP>
