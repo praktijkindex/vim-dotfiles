@@ -1,3 +1,4 @@
+finish
 noremap <Left>   <NOP>
 noremap <Right>  <NOP>
 noremap <Up>     <NOP>
