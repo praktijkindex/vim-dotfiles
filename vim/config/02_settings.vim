@@ -15,8 +15,12 @@ set stl=%f%(\ \|\ %Y%)%(\ \|\ %M%R%)%=\|\ B:%n\ %p%%\ %3l/%L\ %c\ \|
 set modeline modelines=10
 set exrc " load local .vimrc
 set mouse=a
-" directories for backup and swpfiles
-set backupdir=~/.vim/backup directory=~/.vim/backup backupcopy=yes
+" directories for backup and swpfiles, double slashes to avoid basename
+" collisions
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
+set backupcopy=yes noswapfile
 behave xterm " traditional visual mode
 set cursorline cursorcolumn
 if has('unnamedplus')
