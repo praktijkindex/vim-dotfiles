@@ -24,5 +24,4 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'ivalkeen/vim-simpledb'
 Plugin 'nicklasos/vim-jsx-riot'
 Plugin 'rhowardiv/nginx-vim-syntax'
-Plugin 'fatih/vim-go'
 call vundle#end()
